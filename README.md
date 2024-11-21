@@ -3,10 +3,10 @@
 
 <div align="center">
 
-[![Portfolio](https://badgen.net/badge/Portfolio/Visit%20Now/1f2937?icon=chrome&labelColor=black)](https://nakuldevmv.github.io/)
-[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://linkedin.com/in/nakuldevmv)
-[![Email](https://badgen.net/badge/Email/Send%20Mail/4b5563?icon=gmail&labelColor=black)](mailto:nakuldev1561@gmail.com)
-[![Resume](https://badgen.net/badge/Resume/View/4b5563?icon=document&labelColor=black)](https://nakuldevmv.github.io/Resume/resume.pdf)
+
+[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/connectmeraseel/)
+[![Email](https://badgen.net/badge/Email/Send%20Mail/4b5563?icon=gmail&labelColor=black)](mailto:raseelp321@gmail.com)
+[![Resume](https://badgen.net/badge/Resume/View/4b5563?icon=document&labelColor=black)]()
 
 
 
