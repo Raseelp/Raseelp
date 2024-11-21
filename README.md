@@ -65,7 +65,7 @@ graph TD
     
     B --> B1[Figma]
     B --> B2[Photoshop]
-    B --> B3[Blender]
+    
     
     C --> C1[VS Code]
     C --> C2[Git]
@@ -76,7 +76,7 @@ graph TD
     classDef dev fill:#4b5563,stroke:#34d399,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
 
     class A main;
-    class B,B1,B2,B3 design;
+    class B,B1,B2 design;
     class C,C1,C2,C3 dev;
 
 
