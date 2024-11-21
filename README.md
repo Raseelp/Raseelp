@@ -38,6 +38,7 @@ graph TD
     
     C --> C1[JavaScript]
     C --> C2[HTML/CSS]
+    C --> C3[React]
     
     
   
@@ -49,7 +50,7 @@ graph TD
 
     class A main;
     class B,B1,B2 mobile;
-    class C,C1,C2 web;
+    class C,C1,C2,C3 web;
     
 
 ```
