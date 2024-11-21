@@ -31,28 +31,26 @@ class Developer {
 graph TD
     A[Programming] --> B[Mobile]
     A --> C[Web]
-    A --> D[Machine Learning]
+   
     
     B --> B1[Flutter]
     B --> B2[Dart]
     
     C --> C1[JavaScript]
     C --> C2[HTML/CSS]
-    C --> C3[WordPress]
     
-    D --> D1[Python]
-    D --> D2[TensorFlow]
-    D --> D3[PyTorch]
+    
+  
 
     classDef main fill:#1f2937,stroke:#fbbf24,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
     classDef mobile fill:#374151,stroke:#22d3ee,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
     classDef web fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
-    classDef ml fill:#6b7280,stroke:#34d399,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
+    
 
     class A main;
     class B,B1,B2 mobile;
-    class C,C1,C2,C3 web;
-    class D,D1,D2,D3 ml;
+    class C,C1,C2 web;
+    
 
 ```
 
