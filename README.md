@@ -85,19 +85,19 @@ graph TD
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=nakuldevmv&theme=tokyonight&hide_border=true&border_radius=10" height="160" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=Raseelp&theme=tokyonight&hide_border=true&border_radius=10" height="160" alt="GitHub Streak"/>
   &nbsp;&nbsp;
-  <img src="https://api.daily.dev/devcards/v2/zMBxqYhviVYYzB8H4yoSe.png?type=default" width="200" alt="Nakul Dev's Dev Card"/>
+  
 </div>
 
 ## 🤝 Connect With Me
 
 <div align="center">
     
-[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://linkedin.com/in/nakuldevmv)
-[![Instagram](https://badgen.net/badge/Instagram/Follow/6b7280?icon=instagram&labelColor=black)](https://instagram.com/jo.cly.n)
-[![HackerRank](https://badgen.net/badge/HackerRank/Practice/4b5563?icon=code&labelColor=black)](https://www.hackerrank.com/nakuldev1561)
-[![LeetCode](https://badgen.net/badge/LeetCode/Challenge/1f2937?icon=leetcode&labelColor=black)](https://www.leetcode.com/nakuldev1561)
+[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/connectmeraseel/)
+[![Instagram](https://badgen.net/badge/Instagram/Follow/6b7280?icon=instagram&labelColor=black)](https://www.instagram.com/rra_see_ll/?__pwa=1)
+[![HackerRank](https://badgen.net/badge/HackerRank/Practice/4b5563?icon=code&labelColor=black)](https://www.hackerrank.com/raseelp321)
+[![LeetCode](https://badgen.net/badge/LeetCode/Challenge/1f2937?icon=leetcode&labelColor=black)](https://leetcode.com/u/MuhammedRaseel/)
 
 
 </div>
