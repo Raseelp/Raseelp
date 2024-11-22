@@ -83,6 +83,15 @@ graph TD
 
 ```
 
+<div align="left">
+  <h3>:hammer_and_wrench: Languages & tools i like to use</h3>
+</div>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,css,html,js,java,c,mysql,figma,vscode,github,py&perline=4"/>⠀⠀⠀
+</p>
+
+
 ## 📊 GitHub Stats
 
 <div align="center">
