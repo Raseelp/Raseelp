@@ -19,7 +19,7 @@ class Developer {
     location: string = "India,Kerala";
     workingOn: string = "PersonaLens";
     learning: string[] = ["Flutter", "Python","React"];
-    askMeAbout: string[] = ["Web Dev", "App Dev", "Flutter", "UI/UX",ML];
+    askMeAbout: string[] = ["Web Dev", "App Dev", "Flutter", "UI/UX","ML"];
 }
 ```
 
