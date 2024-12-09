@@ -17,9 +17,9 @@ class Developer {
     name: string = "Muhammed Raseel";
     role: string = "Flutter Developer";
     location: string = "India,Kerala";
-    workingOn: string = "PortFolio Website";
-    learning: string[] = ["Flutter", "Python"];
-    askMeAbout: string[] = ["Web Dev", "App Dev", "Flutter", "UI/UX"];
+    workingOn: string = "PersonaLens";
+    learning: string[] = ["Flutter", "Python","React"];
+    askMeAbout: string[] = ["Web Dev", "App Dev", "Flutter", "UI/UX",ML];
 }
 ```
 
