@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/connectmeraseel/)
 [![Email](https://badgen.net/badge/Email/Send%20Mail/4b5563?icon=gmail&labelColor=black)](mailto:raseelp321@gmail.com)
-[![Resume](https://badgen.net/badge/Resume/View/4b5563?icon=document&labelColor=black)]()
+[![Resume](https://badgen.net/badge/Resume/View/4b5563?icon=document&labelColor=black)](blob:https://app.flowcv.com/f533558d-f50d-4392-b569-74e83034473e)
 
 
 
