@@ -17,7 +17,7 @@ class Developer {
     name: string = "Muhammed Raseel";
     role: string = "Flutter Developer";
     location: string = "India,Kerala";
-    workingOn: string = "PersonaLens";
+    workingOn: string = "Symphonix";
     learning: string[] = ["Flutter", "Python","React"];
     askMeAbout: string[] = ["Web Dev", "App Dev", "Flutter", "UI/UX","ML"];
 }
