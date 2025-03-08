@@ -14,12 +14,12 @@
 
 ```typescript
 class Developer {
-    name: string = "Muhammed Raseel";
-    role: string = "Flutter Developer";
-    location: string = "India,Kerala";
-    workingOn: string = "Symphonix";
-    learning: string[] = ["Flutter", "Python","React"];
-    askMeAbout: string[] = ["Web Dev", "App Dev", "Flutter", "UI/UX","ML"];
+    string name = "Muhammed Raseel";
+    string role  = "Flutter Developer";
+    string location  = "India,Kerala";
+    string workingOn  = "Symphonix";
+    string[] learning  = ["Flutter", "Python","Django"];
+    string[] askMeAbout = ["Web Dev", "App Dev", "Flutter", "UI/UX",];
 }
 ```
 
@@ -38,7 +38,7 @@ graph TD
     
     C --> C1[JavaScript]
     C --> C2[HTML/CSS]
-    C --> C3[React]
+   
     
     
   
