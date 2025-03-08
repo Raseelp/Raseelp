@@ -18,8 +18,8 @@ class Developer {
     string role  = "Flutter Developer";
     string location  = "India,Kerala";
     string workingOn  = "Symphonix";
-    string[] learning  = ["Flutter", "Python","Django"];
-    string[] askMeAbout = ["Web Dev", "App Dev", "Flutter", "UI/UX",];
+    List<String> learning  = ["Flutter", "Python","Django"];
+    List<String> askMeAbout = ["Web Dev", "App Dev", "Flutter", "UI/UX",];
 }
 ```
 
