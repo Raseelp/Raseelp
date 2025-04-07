@@ -18,7 +18,7 @@ class Developer {
     string role  = "Flutter Developer";
     string location  = "India,Kerala";
     string workingOn  = "Symphonix";
-    List<String> learning  = ["Flutter", "Python","Django","Express.js","MongoDB"];
+    List<String> learning  = ["Flutter", "Python","Go","Django","MongoDB"];
     List<String> askMeAbout = ["Web Dev", "App Dev", "Flutter", "UI/UX",];
 }
 ```
