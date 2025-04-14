@@ -29,15 +29,15 @@ class Developer {
 %% Note: This graph showcases my Technical Skills.  
 %% If it doesn't display, please view it on the GitHub website.
 graph TD
-    A[Programming] --> B[Mobile]
-    A --> C[Web]
+    A[App Developer] --> B[Front-End]
+    A --> C[Back-End]
    
     
     B --> B1[Flutter]
     B --> B2[Dart]
     
-    C --> C1[JavaScript]
-    C --> C2[HTML/CSS]
+    
+  
    
     
     
