@@ -12,60 +12,6 @@
 
 </div>
 
-```typescript
-class Developer {
-    string name = "Muhammed Raseel";
-    string role  = "Flutter Developer";
-    string location  = "India,Kerala";
-    string workingOn  = "Kazhicho?";
-    List<String> learning  = ["Flutter","Go","Gin","MongoDB"];
-    List<String> askMeAbout = ["Web Dev", "App Dev", "Flutter", "UI/UX",];
-}
-```
-
-## 💻 Technical Skills
-
-```mermaid
-%% Note: This graph showcases my Technical Skills.  
-%% If it doesn't display, please view it on the GitHub website.
-graph TD
-    A[App Developer] --> B[Front-End]
-    A --> C[Back-End]
-   
-    
-    B --> B1[Flutter]
-    B --> B2[Dart]
-
-    C --> C1[Languages and FrameWorks]
-    C --> C2[Databases]
-
-    C1 --> D1[Go]
-    C1 --> D2[Gin]
-    C1 --> D3[Python]
-    C1 --> D4[Django]
-
-    C2 --> D5[MongoDB]
-    C2 --> D6[MySQL]
-    C2 --> D7[Firebase]
-    
-  
-   
-    
-    
-  
-
-    classDef main fill:#1f2937,stroke:#fbbf24,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
-    classDef mobile fill:#374151,stroke:#22d3ee,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
-    classDef web fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
-    classDef lang fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
-
-    class A main;
-    class B,B1,B2 mobile;
-    class C,C1,C2,C3 web;
-    class D1,D2,D3,D4,D5,D6,D7 lang;
-    
-
-```
 
 
 ## 📊 GitHub Stats
