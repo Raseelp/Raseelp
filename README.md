@@ -2,11 +2,10 @@
 
 <p align="center">
   Flutter developer at Logiology Solutions, Calicut.<br/>
-  Cross-platform apps by day, the Kotlin underneath them by night.
+ Mobile developer working with Flutter, Kotlin, GetX, REST APIs and Firebase in production. I've shipped to both app stores, worked against .NET backends, and build backends of my own in Go and MongoDB.I build side projects that run ML models entirely on the phone.
 </p>
 
 <p align="center">
-  <code>raseel@kerala:~$ ls</code>
   <br/><br/>
   <a href="https://raseelportfolio.vercel.app"><code>portfolio/</code></a>
   &nbsp;&nbsp;
@@ -22,15 +21,13 @@
 ```dart
 class Raseel extends Developer {
   final role = 'Flutter Developer';
-  final at = 'Logiology Solutions';
+  final workingAt = 'Logiology Solutions';
   final city = 'Calicut, Kerala';
 
   final langs = [
     'Dart', 'Kotlin', 'Go', 'C',
   ];
-  final ships = [
-    'Play Store', 'App Store',
-  ];
+
   final enjoys = [
     'platform channels',
     'on-device ML',
