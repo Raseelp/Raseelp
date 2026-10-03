@@ -2,7 +2,7 @@
 
 <p align="center">
   Flutter developer at Logiology Solutions, Calicut.<br/>
- Mobile developer working with Flutter, Kotlin, GetX, REST APIs and Firebase in production. I've shipped to both app stores, worked against .NET backends, and build backends of my own in Go and MongoDB.I build side projects that run ML models entirely on the phone.
+ Mobile developer working with Flutter, Kotlin, GetX, REST APIs and Firebase in production. I've shipped to both app stores, worked against .NET backends, and build backends of my own in Go and MongoDB. I build side projects that run ML models entirely on the phone.
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 ```dart
 class Raseel extends Developer {
   final role = 'Flutter Developer';
-  final workingAt = 'Logiology Solutions';
+  final at = 'Logiology Solutions';
   final city = 'Calicut, Kerala';
 
   final langs = [
@@ -71,116 +71,82 @@ gitGraph TB:
 
 ## Selected work
 
-```mermaid
-%%{init: {'theme': 'base', 'themeCSS': '.flowchart-link {stroke-width:1.5px !important;} .cluster rect {rx:10px; ry:10px;} .edgeLabel, .edgeLabel p, .edgeLabel span {background-color:#0D1117 !important; color:#8B949E !important;} .edgeLabel rect {fill:#0D1117 !important;}', 'themeVariables': {'fontSize': '14px', 'fontFamily': 'monospace', 'lineColor': '#6E7681', 'primaryTextColor': '#E6EDF3'}, 'flowchart': {'nodeSpacing': 18, 'rankSpacing': 30, 'padding': 8, 'diagramPadding': 4}}}%%
-flowchart TB
-  subgraph VEC["Vector"]
-    direction TB
-
-    subgraph FL["Flutter · Dart"]
-      direction TB
-      UI["Search · Library · Faces<br/>photo + video viewers<br/>tappable faces<br/>collections<br/>merge · split · review"]
-      CTRL["GetX controllers<br/>Native · Faces<br/>Collections<br/>sqflite folder DB"]
-      TOK["CLIP BPE tokenizer<br/>query to 77 ids"]
-      SVC{{"NativeServices<br/>1 MethodChannel<br/>3 EventChannels"}}
-      UI <--> CTRL
-      CTRL --> TOK
-      CTRL <--> SVC
-    end
-
-    subgraph KT["Kotlin · Android"]
-      direction TB
-      SRC["MediaStore / SAF<br/>photos + videos"]
-
-      subgraph IDX["index · fg service"]
-        direction TB
-        FRM["photos as-is<br/>videos: 3-10 frames"] --> PRE["224 × 224 crop<br/>CLIP normalise"]
-        PRE --> VIS["CLIP vision<br/>PyTorch Mobile"]
-        VIS --> BIN[("embeddings.bin<br/>512-d, L2 norm")]
-      end
-
-      subgraph SRCH["search"]
-        direction TB
-        TXT["CLIP text<br/>PyTorch Mobile"] --> DOT{{"dot product<br/>= cosine"}}
-      end
-
-      subgraph PPL["people · WorkManager"]
-        direction TB
-        DET["SCRFD detect<br/>ONNX · 640 px"] --> QG["quality gate<br/>size · yaw · blur"]
-        QG --> ALN["5-point align<br/>112 × 112"]
-        ALN --> ARC["ArcFace r50<br/>512-d vector"]
-        ARC --> CLU{{"incremental<br/>clustering"}}
-        CLU --> FDB[("SQLite<br/>people, faces")]
-      end
-
-      SRC --> FRM
-      SRC --> DET
-      BIN --> DOT
-      BIN ~~~ TXT
-    end
-
-    FL ==>|"MethodChannel"| KT
-    KT ==>|"EventChannels"| FL
-  end
-
-  classDef in fill:#0D1117,stroke:#58A6FF,stroke-width:1.5px,color:#E6EDF3
-  classDef model fill:#161B22,stroke:#30363D,stroke-width:1px,color:#C9D1D9
-  classDef core fill:#0D1117,stroke:#BC8CFF,stroke-width:1.5px,color:#BC8CFF
-  classDef warn fill:#0D1117,stroke:#D29922,stroke-width:1.5px,stroke-dasharray:4 3,color:#D29922
-  classDef hit fill:#0D1117,stroke:#3FB950,stroke-width:1.5px,color:#3FB950
-  class SRC in
-  class UI,CTRL,TOK,FDBD,FRM,PRE,VIS,TXT,DET,QG,ALN,ARC,BIN,FDB model
-  class SVC core
-  class DOT hit
-  class CLU core
-  style VEC fill:#0D1117,stroke:#58A6FF,stroke-width:1.5px,color:#E6EDF3
-  style FL fill:#0D1117,stroke:#58A6FF,stroke-dasharray:4 4,color:#58A6FF
-  style KT fill:#0D1117,stroke:#BC8CFF,stroke-dasharray:4 4,color:#BC8CFF
-  style IDX fill:#161B22,stroke:#30363D,color:#8B949E
-  style SRCH fill:#161B22,stroke:#30363D,color:#8B949E
-  style PPL fill:#161B22,stroke:#30363D,color:#8B949E
-```
-
-Describe what you're looking for, or hand it a photo, and it finds the match in your gallery no matter what the file is called.
-It also recognises the people in your photos and videos and groups them, so you can search by who is in a picture
-and jump straight to the moment someone appears in a video. Indexing, search and face recognition all run on the phone.
-<br/>
-<sub><code>Flutter</code> <code>Kotlin</code> <code>CLIP</code> <code>PyTorch&nbsp;Mobile</code> <code>ONNX&nbsp;Runtime</code> <code>SCRFD</code> <code>ArcFace</code> <code>SQLite</code> <code>WorkManager</code></sub>
-&nbsp;&nbsp;[**View repo**](https://github.com/Raseelp/Vector-LocalSemanticSearch)
+<table>
+  <tr>
+    <td>
+      <h3>Vector</h3>
+      <sub>ON-DEVICE SEMANTIC SEARCH AND FACE RECOGNITION &nbsp;·&nbsp; FLUTTER + KOTLIN</sub>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <sub><b>THE ITCH</b></sub>
+      <p><i>Finding a photo by what is in it meant scrolling forever, or uploading your whole library to someone's cloud.</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <sub><b>THE BUILD</b></sub>
+      <ul>
+        <li>Type <b>"a dog on a beach"</b> or hand it a photo, and it finds the match</li>
+        <li>Recognises the <b>people</b> across your photos and videos and groups them</li>
+        <li>Opens a video <b>right at the moment</b> someone appears</li>
+        <li>Runs <b>entirely on the phone</b>: CLIP, SCRFD and ArcFace, no server</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <sub><b>THE TWIST</b></sub>
+      <p>Running face recognition on every frame of a video would take forever. So faces are <b>tracked across frames</b>, and only the best one or two in each track are recognised. A whole clip costs a handful of runs, not hundreds.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <sub><code>Flutter</code> <code>Kotlin</code> <code>CLIP</code> <code>PyTorch&nbsp;Mobile</code> <code>ONNX&nbsp;Runtime</code> <code>SQLite</code></sub>
+      &nbsp;&nbsp;<a href="https://github.com/Raseelp/Vector-LocalSemanticSearch"><b>View repo →</b></a>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-```mermaid
-%%{init: {'theme': 'base', 'themeCSS': '.flowchart-link {stroke-width:1.5px !important;} .cluster rect {rx:10px; ry:10px;} .edgeLabel, .edgeLabel p, .edgeLabel span {background-color:#0D1117 !important; color:#8B949E !important;} .edgeLabel rect {fill:#0D1117 !important;}', 'themeVariables': {'fontSize': '14px', 'fontFamily': 'monospace', 'lineColor': '#6E7681', 'primaryTextColor': '#E6EDF3'}, 'flowchart': {'nodeSpacing': 18, 'rankSpacing': 30, 'padding': 8, 'diagramPadding': 4}}}%%
-flowchart TB
-  subgraph CONV["iPhone Video to Android Converter"]
-    direction TB
-    IN["iPhone video<br/>HEVC · HDR<br/>Dolby Vision"] --> TR{{"Media3 Transformer<br/>HW decode<br/>HDR to SDR"}}
-    TR -->|most files| OUT["H.264 video<br/>AAC copied as-is"]
-    TR -.->|decode fails| LAD["fallback ladder<br/>1 · force SDR<br/>2 · strip Dolby Vision<br/>3 · software decoder<br/>4 · FFmpeg<br/>zscale + tonemap<br/>h264_mediacodec<br/>size fits encoder"]
-    LAD -.-> OUT
-    OUT --> MS[("gallery · Movies/")]
-  end
-  classDef in fill:#0D1117,stroke:#58A6FF,stroke-width:1.5px,color:#E6EDF3
-  classDef model fill:#161B22,stroke:#30363D,stroke-width:1px,color:#C9D1D9
-  classDef core fill:#0D1117,stroke:#BC8CFF,stroke-width:1.5px,color:#BC8CFF
-  classDef warn fill:#0D1117,stroke:#D29922,stroke-width:1.5px,stroke-dasharray:4 3,color:#D29922
-  classDef hit fill:#0D1117,stroke:#3FB950,stroke-width:1.5px,color:#3FB950
-  class IN in
-  class MS model
-  class TR core
-  class LAD warn
-  class OUT hit
-  style CONV fill:#0D1117,stroke:#BC8CFF,stroke-width:1.5px,color:#E6EDF3
-```
-
-iPhones record in HEVC, which a lot of Android phones can't decode, so the video arrives as a black screen.
-This app re-encodes it to H.264 in a background service, tone-maps HDR so nothing comes out washed out, and copies the audio untouched.
-When a Dolby Vision file defeats every Android decoder, it works down a fallback ladder that ends in a custom FFmpeg chain,
-and it checks what the phone's encoder can really produce before choosing the output size.
-<br/>
-<sub><code>Kotlin</code> <code>Jetpack&nbsp;Compose</code> <code>Media3</code> <code>FFmpeg</code> <code>MediaCodec</code> <code>Foreground service</code> <code>MediaStore</code></sub>
-&nbsp;&nbsp;[**View repo**](https://github.com/Raseelp/iPhone-Video-to-Android-Converter)
+<table>
+  <tr>
+    <td>
+      <h3>iPhone Video to Android Converter</h3>
+      <sub>HEVC TO H.264 VIDEO CONVERSION &nbsp;·&nbsp; KOTLIN</sub>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <sub><b>THE ITCH</b></sub>
+      <p><i>iPhones record in HEVC, and a lot of Android phones can't play it. The video arrives as a black screen.</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <sub><b>THE BUILD</b></sub>
+      <ul>
+        <li><b>One tap</b> re-encodes it to H.264, in the background</li>
+        <li><b>HDR is tone-mapped</b> to SDR, so colours don't come out washed out</li>
+        <li>Audio is <b>copied untouched</b>, and the result lands in the gallery</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <sub><b>THE TWIST</b></sub>
+      <p>Real Dolby Vision footage failed on <b>every decoder Android has</b>, hardware and software. Four fallbacks later, a custom FFmpeg chain got through. Some phones can play 4K but can't write it, so the app also fits the output to what each phone's encoder <b>can actually produce</b>.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <sub><code>Kotlin</code> <code>Jetpack&nbsp;Compose</code> <code>Media3</code> <code>FFmpeg</code> <code>MediaCodec</code></sub>
+      &nbsp;&nbsp;<a href="https://github.com/Raseelp/iPhone-Video-to-Android-Converter"><b>View repo →</b></a>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
