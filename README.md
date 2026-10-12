@@ -59,9 +59,9 @@ gitGraph TB:
   commit id: "71bc0d9 N Vend: CRM, billing, RFID"
   commit id: "6d5a2e4 N Divo: dashboards, biometrics"
   checkout side
-  commit id: "a93e4c5 Vector: semantic search (2025)"
+  commit id: "a93e4c5 Lost and Found: semantic search (2025)"
   commit id: "5c08e1f HEVC to H.264 converter (2026)"
-  commit id: "b7d3e90 Vector learns faces (2026)"
+  commit id: "b7d3e90 Lost and Found learns faces (2026)"
   checkout main
   merge work id: "9e2d1b7 merge work"
   merge side id: "f00d42a (HEAD → main) still shipping"
@@ -74,8 +74,8 @@ gitGraph TB:
 <table>
   <tr>
     <td>
-      <h3>Vector</h3>
-      <sub>ON-DEVICE SEMANTIC SEARCH AND FACE RECOGNITION &nbsp;·&nbsp; FLUTTER + KOTLIN</sub>
+      <h3>Lost &amp; Found</h3>
+      <sub>OFFLINE PHOTO AND VIDEO SEARCH WITH FACE RECOGNITION &nbsp;·&nbsp; FLUTTER + KOTLIN</sub>
     </td>
   </tr>
   <tr>
@@ -91,6 +91,7 @@ gitGraph TB:
         <li>Type <b>"a dog on a beach"</b> or hand it a photo, and it finds the match</li>
         <li>Recognises the <b>people</b> across your photos and videos and groups them</li>
         <li>Opens a video <b>right at the moment</b> someone appears</li>
+        <li><b>Exports</b> any album or person as a zip, split into parts that open on their own</li>
         <li>Runs <b>entirely on the phone</b>: CLIP, SCRFD and ArcFace, no server</li>
       </ul>
     </td>
@@ -103,8 +104,8 @@ gitGraph TB:
   </tr>
   <tr>
     <td>
-      <sub><code>Flutter</code> <code>Kotlin</code> <code>CLIP</code> <code>PyTorch&nbsp;Mobile</code> <code>ONNX&nbsp;Runtime</code> <code>SQLite</code></sub>
-      &nbsp;&nbsp;<a href="https://github.com/Raseelp/Vector-LocalSemanticSearch"><b>View repo →</b></a>
+      <sub><code>Flutter</code> <code>Kotlin</code> <code>CLIP</code> <code>ONNX&nbsp;Runtime</code> <code>SQLite</code></sub>
+      &nbsp;&nbsp;<a href="https://github.com/Raseelp/Lost-and-Found-Offline-Search"><b>View repo →</b></a>
     </td>
   </tr>
 </table>
@@ -164,7 +165,7 @@ gitGraph TB:
       <sub><b>ON-DEVICE ML</b></sub><br/><br/>
       <img src="https://skillicons.dev/icons?i=pytorch&perline=3" width="38" alt="PyTorch"/>
       <br/><br/>
-      <sub><code>PyTorch&nbsp;Mobile</code> <code>ONNX&nbsp;Runtime</code> <code>CLIP</code> <code>SCRFD</code> <code>ArcFace</code></sub>
+      <sub><code>ONNX&nbsp;Runtime</code> <code>CLIP</code> <code>SCRFD</code> <code>ArcFace</code> <code>PyTorch</code></sub>
     </td>
   </tr>
   <tr>
