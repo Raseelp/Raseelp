@@ -25,7 +25,7 @@ class Raseel extends Developer {
   final city = 'Calicut, Kerala';
 
   final langs = [
-    'Dart', 'Kotlin', 'Go', 'C',
+    'Dart', 'Kotlin', 'Python', 'Go', 'C',
   ];
 
   final enjoys = [
@@ -88,11 +88,12 @@ gitGraph TB:
     <td>
       <sub><b>THE BUILD</b></sub>
       <ul>
-        <li>Type <b>"a dog on a beach"</b> or hand it a photo, and it finds the match</li>
+        <li>Type <b>"a birthday cake with candles"</b> or hand it a photo, and it finds the match</li>
         <li>Recognises the <b>people</b> across your photos and videos and groups them</li>
-        <li>Opens a video <b>right at the moment</b> someone appears</li>
+        <li>Opens a video <b>right at the moment</b> someone appears, and searches like <b>"Maya at the beach"</b> combine people and words</li>
+        <li>Builds a <b>timeline of everyone's photos</b>, On this day, and daily memories</li>
         <li><b>Exports</b> any album or person as a zip, split into parts that open on their own</li>
-        <li>Runs <b>entirely on the phone</b>: CLIP, SCRFD and ArcFace, no server</li>
+        <li>Runs <b>entirely on the phone</b>: MobileCLIP-S0, SCRFD and MobileFaceNet, no server</li>
       </ul>
     </td>
   </tr>
@@ -104,7 +105,7 @@ gitGraph TB:
   </tr>
   <tr>
     <td>
-      <sub><code>Flutter</code> <code>Kotlin</code> <code>CLIP</code> <code>ONNX&nbsp;Runtime</code> <code>SQLite</code></sub>
+      <sub><code>Flutter</code> <code>Kotlin</code> <code>MobileCLIP</code> <code>ONNX&nbsp;Runtime</code> <code>SQLite</code></sub>
       &nbsp;&nbsp;<a href="https://github.com/Raseelp/Lost-and-Found-Offline-Search"><b>View repo →</b></a>
     </td>
   </tr>
@@ -165,7 +166,7 @@ gitGraph TB:
       <sub><b>ON-DEVICE ML</b></sub><br/><br/>
       <img src="https://skillicons.dev/icons?i=pytorch&perline=3" width="38" alt="PyTorch"/>
       <br/><br/>
-      <sub><code>ONNX&nbsp;Runtime</code> <code>CLIP</code> <code>SCRFD</code> <code>ArcFace</code> <code>PyTorch</code></sub>
+      <sub><code>ONNX&nbsp;Runtime</code> <code>MobileCLIP</code> <code>SCRFD</code> <code>MobileFaceNet</code> <code>int8&nbsp;quantization</code> <code>PyTorch&nbsp;→&nbsp;ONNX</code></sub>
     </td>
   </tr>
   <tr>
