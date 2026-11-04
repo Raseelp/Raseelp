@@ -1,7 +1,7 @@
 <h1 align="center">Muhammed Raseel</h1>
 
 <p align="center">
-  Flutter developer at Logiology Solutions, Calicut.<br/>
+  Flutter developer based in Calicut, Kerala.<br/>
  Mobile developer working with Flutter, Kotlin, GetX, REST APIs and Firebase in production. I've shipped to both app stores, worked against .NET backends, and build backends of my own in Go and MongoDB. I build side projects that run ML models entirely on the phone.
 </p>
 
@@ -21,7 +21,6 @@
 ```dart
 class Raseel extends Developer {
   final role = 'Flutter Developer';
-  final at = 'Logiology Solutions';
   final city = 'Calicut, Kerala';
 
   final langs = [
